@@ -1,0 +1,275 @@
+{
+  "start": {
+    "question": "What mood do you want for the story?",
+    "choices": [
+      { "label": "Light", "next": "light_interest" },
+      { "label": "Serious", "next": "serious_interest" },
+      { "label": "Dark", "next": "dark_interest" }
+    ]
+  },
+
+  "light_interest": {
+    "question": "What should the story focus on?",
+    "choices": [
+      { "label": "Love", "next": "light_love_setting" },
+      { "label": "Adventure", "next": "light_adventure_setting" },
+      { "label": "Humor", "next": "light_humor_setting" }
+    ]
+  },
+
+  "light_love_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "romance_modern_feel" },
+      { "label": "Historical", "next": "romance_historical_feel" },
+      { "label": "Futuristic", "next": "romance_futuristic_feel" }
+    ]
+  },
+
+  "romance_modern_feel": {
+    "question": "How should the story feel?",
+    "choices": [
+      { "label": "Emotional", "next": "result_modern_romance" }
+    ]
+  },
+
+  "result_modern_romance": {
+    "result": "Modern Romance",
+    "story": "Pride and Prejudice by Jane Austen"
+  },
+
+  "romance_historical_feel": {
+    "question": "How should the story feel?",
+    "choices": [
+      { "label": "Emotional", "next": "result_historical_romance" }
+    ]
+  },
+
+  "result_historical_romance": {
+    "result": "Historical Romance",
+    "story": "Outlander by Diana Gabaldon"
+  },
+
+  "romance_futuristic_feel": {
+    "question": "How should the story feel?",
+    "choices": [
+      { "label": "Complex", "next": "result_scifi_romance" }
+    ]
+  },
+
+  "result_scifi_romance": {
+    "result": "Sci-Fi Romance",
+    "story": "The Time Traveler's Wife by Audrey Niffenegger"
+  },
+
+  "light_adventure_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_modern_adventure" },
+      { "label": "Historical", "next": "result_historical_adventure" },
+      { "label": "Futuristic", "next": "result_scifi_adventure" }
+    ]
+  },
+
+  "result_modern_adventure": {
+    "result": "Modern Adventure",
+    "story": "The Da Vinci Code by Dan Brown"
+  },
+
+  "result_historical_adventure": {
+    "result": "Historical Adventure",
+    "story": "The Three Musketeers by Alexandre Dumas"
+  },
+
+  "result_scifi_adventure": {
+    "result": "Sci-Fi Adventure",
+    "story": "Ender's Game by Orson Scott Card"
+  },
+
+  "light_humor_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_modern_comedy" },
+      { "label": "Historical", "next": "result_historical_comedy" },
+      { "label": "Futuristic", "next": "result_scifi_comedy" }
+    ]
+  },
+
+  "result_modern_comedy": {
+    "result": "Modern Comedy",
+    "story": "The Rosie Project by Graeme Simsion"
+  },
+
+  "result_historical_comedy": {
+    "result": "Historical Comedy",
+    "story": "The Princess Bride by William Goldman"
+  },
+
+  "result_scifi_comedy": {
+    "result": "Sci-Fi Comedy",
+    "story": "The Hitchhiker's Guide to the Galaxy by Douglas Adams"
+  },
+
+  "serious_interest": {
+    "question": "What kind of story do you prefer?",
+    "choices": [
+      { "label": "Thought-provoking", "next": "serious_thought_setting" },
+      { "label": "Mystery", "next": "serious_mystery_setting" },
+      { "label": "Realistic life", "next": "serious_realistic_setting" }
+    ]
+  },
+
+  "serious_thought_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_modern_philosophical" },
+      { "label": "Historical", "next": "result_historical_drama" },
+      { "label": "Futuristic", "next": "result_futuristic_scifi" }
+    ]
+  },
+
+  "result_modern_philosophical": {
+    "result": "Philosophical Drama",
+    "story": "1984 by George Orwell"
+  },
+
+  "result_historical_drama": {
+    "result": "Historical Drama",
+    "story": "War and Peace by Leo Tolstoy"
+  },
+
+  "result_futuristic_scifi": {
+    "result": "Futuristic Sci-Fi",
+    "story": "Brave New World by Aldous Huxley"
+  },
+
+  "serious_mystery_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_modern_mystery" },
+      { "label": "Historical", "next": "result_historical_mystery" },
+      { "label": "Futuristic", "next": "result_scifi_mystery" }
+    ]
+  },
+
+  "result_modern_mystery": {
+    "result": "Modern Mystery",
+    "story": "Gone Girl by Gillian Flynn"
+  },
+
+  "result_historical_mystery": {
+    "result": "Historical Mystery",
+    "story": "The Name of the Rose by Umberto Eco"
+  },
+
+  "result_scifi_mystery": {
+    "result": "Sci-Fi Mystery",
+    "story": "Dark Matter by Blake Crouch"
+  },
+
+  "serious_realistic_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_modern_realistic" },
+      { "label": "Historical", "next": "result_historical_realistic" },
+      { "label": "Futuristic", "next": "result_scifi_realistic" }
+    ]
+  },
+
+  "result_modern_realistic": {
+    "result": "Modern Realistic Life",
+    "story": "Little Fires Everywhere by Celeste Ng"
+  },
+
+  "result_historical_realistic": {
+    "result": "Historical Realistic Life",
+    "story": "All the Light We Cannot See by Anthony Doerr"
+  },
+
+  "result_scifi_realistic": {
+    "result": "Futuristic Realistic Life",
+    "story": "Station Eleven by Emily St. John Mandel"
+  },
+
+  "dark_interest": {
+    "question": "What type of dark story do you want?",
+    "choices": [
+      { "label": "Scary", "next": "dark_scary_setting" },
+      { "label": "Intense", "next": "dark_intense_setting" },
+      { "label": "Emotional", "next": "dark_emotional_setting" }
+    ]
+  },
+
+  "dark_scary_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_modern_horror" },
+      { "label": "Historical", "next": "result_medieval_horror" },
+      { "label": "Futuristic", "next": "result_scifi_horror" }
+    ]
+  },
+
+  "result_modern_horror": {
+    "result": "Modern Horror",
+    "story": "The Shining by Stephen King"
+  },
+
+  "result_medieval_horror": {
+    "result": "Medieval Horror",
+    "story": "Dracula by Bram Stoker"
+  },
+
+  "result_scifi_horror": {
+    "result": "Sci-Fi Horror",
+    "story": "Alien by Alan Dean Foster"
+  },
+
+  "dark_intense_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_modern_thriller" },
+      { "label": "Historical", "next": "result_medieval_thriller" },
+      { "label": "Futuristic", "next": "result_scifi_thriller" }
+    ]
+  },
+
+  "result_modern_thriller": {
+    "result": "Modern Thriller",
+    "story": "The Girl with the Dragon Tattoo by Stieg Larsson"
+  },
+
+  "result_medieval_thriller": {
+    "result": "Medieval Thriller",
+    "story": "The Pillars of the Earth by Ken Follett"
+  },
+
+  "result_scifi_thriller": {
+    "result": "Sci-Fi Thriller",
+    "story": "Altered Carbon by Richard K. Morgan"
+  },
+
+  "dark_emotional_setting": {
+    "question": "What setting do you prefer?",
+    "choices": [
+      { "label": "Modern", "next": "result_dark_romance" },
+      { "label": "Historical", "next": "result_historical_tragedy" },
+      { "label": "Futuristic", "next": "result_dystopian_romance" }
+    ]
+  },
+
+  "result_dark_romance": {
+    "result": "Dark Romance",
+    "story": "Me Before You by Jojo Moyes"
+  },
+
+  "result_historical_tragedy": {
+    "result": "Historical Tragedy",
+    "story": "Romeo and Juliet by William Shakespeare"
+  },
+
+  "result_dystopian_romance": {
+    "result": "Dystopian Romance",
+    "story": "The Hunger Games by Suzanne Collins"
+  }
+}
+
